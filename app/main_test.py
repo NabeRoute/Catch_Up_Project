@@ -10,8 +10,8 @@ import utils.ppt_generation as ppt_gen
 from utils.clear_tmp import clear_temp_files
 from utils.graph_gen import GraphGeneration, VisualizationProcessor, PPTXGenerator, load_settings
 from utils.ui_config import configure_sidebar
-from utils.src.lida import Manager, llm
-from utils.src.lida.datamodel import Goal
+from lida import Manager, llm
+from lida.datamodel import Goal
 from PIL import Image
 from io import BytesIO
 

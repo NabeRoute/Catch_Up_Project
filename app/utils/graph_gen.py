@@ -11,10 +11,10 @@ from PIL import Image
 from dotenv import load_dotenv
 from pptx import Presentation
 from pptx.util import Inches, Pt
-from utils.src.lida import TextGenerationConfig, Manager
+from lida import TextGenerationConfig, Manager
 from llmx import llm
 #from src.lida.components import Manager
-from utils.src.lida.datamodel import TextGenerationConfig
+from lida.datamodel import TextGenerationConfig
 from llmx import TextGenerator
 
 
