@@ -11,12 +11,7 @@ wheels/
 
 /app/.env
 
-
-/app/utils/ui_config2.py
-/app/utils/ppt_generation2.py
-/app/main.py
-app copy
-
-src/pptgen
+requirements.lock
+requirements-dev.lock
 
 generated_slide.pptx
