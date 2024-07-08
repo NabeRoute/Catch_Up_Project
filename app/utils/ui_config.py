@@ -66,6 +66,8 @@ def configure_sidebar():
             data.to_csv(uploaded_file_path, index=False)   
             st.session_state['uploaded_file'].append((file_name, uploaded_file_path))
 
+        else:
+            st.sidebar.warning("ファイルがアップロードされていません。データセットを選択するかファイルをアップロードしてください。")
     # Handle dataset selection and upload
     st.sidebar.write("## データの要約")
     st.sidebar.write("### 要約方法の選択")
